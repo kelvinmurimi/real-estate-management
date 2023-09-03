@@ -1,0 +1,12 @@
+//tables and fields
+--Tables
+  1.Property listings tables
+  2. Property types tables
+  3. Amenities table //
+  4.appointment table
+  5.Testimonials
+  6.Blog
+  7.Property Categories
+  8.Blog Tags
+
+
