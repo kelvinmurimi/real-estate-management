@@ -10,5 +10,6 @@ class PropertyCategory extends Model
 {
     use HasFactory;
 
-    protected $guarded = [];
+
+    protected $fillable = ['name', 'slug']; //example for rental or sale,featured,
 }

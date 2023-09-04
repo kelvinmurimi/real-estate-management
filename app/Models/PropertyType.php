@@ -6,9 +6,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class PropertyTypes extends Model
+class PropertyType extends Model
 {
     use HasFactory;
 
-    protected $guarded = [];
+    protected $fillable= ['name','icon','description'];//e.g apartment,villa,home,garage,shop
 }

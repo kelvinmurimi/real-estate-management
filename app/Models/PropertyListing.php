@@ -10,5 +10,30 @@ class PropertyListing extends Model
 {
     use HasFactory;
 
-    protected $guarded = [];
+    protected $fillable = [
+        'name',
+        'status',
+        'propertytype_id',
+        'user_id',
+        'amenities_id',
+        'facility_id',
+        'featuredimage',
+        'multipleimages',
+        'lowestprice',
+        'maxprice',
+        'bedrooms',
+        'bathrooms',
+        'garage',
+        'garagesize',
+        'address',
+        'city',
+        'state',
+        'location',
+        'postalcode',
+        'size',
+        'description',
+        'content'
+
+
+    ];
 }

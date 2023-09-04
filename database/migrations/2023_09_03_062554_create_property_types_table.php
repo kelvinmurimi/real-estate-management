@@ -10,14 +10,17 @@ return new class extends Migration
 {
     public function up()
     {
-        Schema::create('tags', function (Blueprint $table) {
+        Schema::create('property_types', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('description')->nullable();
+            $table->string('icon');
             $table->timestamps();
         });
     }
 
     public function down()
     {
-        Schema::dropIfExists('tags');
+        Schema::dropIfExists('property_types');
     }
 };
